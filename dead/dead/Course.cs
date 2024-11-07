@@ -15,7 +15,6 @@ namespace projekt
         /// </summary>
 
         public string CourseID { get; set; }
-        public string CourseName { get; set; }
         public List<Lecturer> Lecturers { get; set; }
         public DateTime Start { get; set; }
         public DateTime End { get; set; }

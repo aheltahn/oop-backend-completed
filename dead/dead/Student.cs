@@ -9,8 +9,8 @@ namespace projekt
     [Serializable]
     public class Student : Human, IENTITY
     {
-        public string Id { get; set; } //Thuộc tính từ IENTITY
-        public string Name { get; set; } //Thuộc tính từ IENTITY
+        public string Id { get; set; } 
+        public string Name { get; set; } 
         public double GPA { get; set; }
         public double ĐRL { get; set; }
         public string SchoolYear { get; set; }

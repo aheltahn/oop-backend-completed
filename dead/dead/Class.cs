@@ -15,10 +15,11 @@ namespace projekt
         /// </summary>
 
         public string ClassID { get; set; }
+        
         public List<Student> students = new List<Student>();
 
-        public Class(int departmentID, string departmentName, string id)
-            : base(departmentID, departmentName)
+        public Class(int departmentID,  string id)
+            : base(departmentID)
         {
             this.ClassID = id;
         }

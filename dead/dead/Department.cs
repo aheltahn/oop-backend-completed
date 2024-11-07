@@ -17,14 +17,13 @@ namespace projekt
         /// </summary>
 
         public int DepartmentID { get; set; }
-        public string DepartmentName { get; set; }
         public List<Lecturer> Lecturers { get; set; }
         public List<Class> Classes { get; set; }
 
-        public Department(int departmentID, string departmentName)
+        public Department(int departmentID)
         {
             DepartmentID = departmentID;
-            DepartmentName = departmentName;
+           
         }
     }
 }
